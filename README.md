@@ -650,7 +650,7 @@ Example payload:
   "alertsFound": [
     { "label": "2023 Jan 13", "value": 47 }
   ],
-  "dashboardUrl": "https://app.chartbrew.com/project/1"
+  "dashboardUrl": ""
 }
 
  
