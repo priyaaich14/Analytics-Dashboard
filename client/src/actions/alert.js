@@ -9,6 +9,7 @@ export const FETCH_CHART_ALERTS = "FETCH_CHART_ALERTS";
 export const REMOVE_ALERT = "REMOVE_ALERT";
 export const CLEAR_ALERTS = "CLEAR_ALERTS";
 
+
 export function createAlert(projectId, chartId, alert) {
   return (dispatch) => {
     const token = cookie.load("brewToken");

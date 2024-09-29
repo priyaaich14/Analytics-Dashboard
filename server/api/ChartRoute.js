@@ -713,8 +713,7 @@ module.exports = (app) => {
         return res.status(400).send({ error: (error && error.message) || error });
       }
     });
-  // --------------------------------------------------------
-
+  
   return (req, res, next) => {
     next();
   };
