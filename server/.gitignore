@@ -1,7 +1,0 @@
-node_modules
-.env
-models/.env
-.eslintcache 
-.cache
-.connectionFiles
-uploads
